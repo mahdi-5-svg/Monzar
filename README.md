@@ -1,2 +1,31 @@
-# Monzar
-Monzar Scanner is a GUI Bash tool for Nmap, designed for Arabic users. It provides easy network, port, and service scanning with progress indicators and optioScannernal result saving.
+# أداة Monzar
+
+Monzar هي أداة واجهة رسومية (GUI) مبنية على Bash تستخدم Zenity لتسهيل استخدام Nmap.
+
+## الميزات
+
+- اكتشاف الأجهزة في الشبكة
+- فحص أشهر البورتات
+- فحص جميع البورتات أو بورت معين
+- معرفة الخدمات والإصدارات على الأجهزة
+- معرفة نظام التشغيل
+- فحص سريع وخفي
+- فحص UDP
+- عرض البورتات المفتوحة فقط
+- تشغيل سكربتات اكتشاف الثغرات
+- اكتشاف معلومات HTTP و SSH و DNS
+- فحص قوي وشامل واحترافي
+
+## المتطلبات
+
+- Nmap
+- Zenity
+- صلاحيات root لبعض الفحوصات العميقة
+
+## التثبيت
+
+```bash
+git clone https://github.com/USERNAME/Monzar.git
+cd Monzar
+chmod +x install.sh
+sudo ./install.sh
