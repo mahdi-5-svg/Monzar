@@ -25,7 +25,7 @@ Monzar هي أداة واجهة رسومية (GUI) مبنية على Bash تست
 ## التثبيت
 
 ```bash
-git clone https://github.com/USERNAME/monzar.git
-cd monzar
+git clone https://github.com/USERNAME/Monzar.git
+cd Monzar
 chmod +x install.sh
 sudo ./install.sh
